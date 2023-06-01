@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("")
     public String hello(){
-        System.out.println("helloWorldTest");
+        System.out.println("helloWorldTest1");
         return "OK";
     }
 }
